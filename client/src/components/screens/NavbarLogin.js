@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
+import "./navbar.css"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
