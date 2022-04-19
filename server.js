@@ -12,6 +12,18 @@ app.use(express.json());
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/private", require("./routes/private"));
 
+const __dirname = path.resolve();
+ app.use('/upload', express.static(path.join(__dirname, '/upload')));
+
+app.get('/',(req,res) =>{
+    res.send('Server is running');
+});
+
+
+if(process.env.NODE_ENV =='production'){
+    app.use(express.static(path.join(__dirname, '/client/build')))
+}
+
 //Error Handler (should be last piece of middleware)
 
 app.use(errorHandler);
