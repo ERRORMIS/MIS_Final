@@ -1,0 +1,45 @@
+.forgotpassword-screen {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(9, 7, 73);
+  }
+  
+  .private-screen__form {
+    width: 380px;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background: rgb(237, 236, 241);
+  }
+  
+  .private-screen__title {
+    text-align: center;
+    color: black;
+    margin-bottom: 1rem;
+  }
+  
+  .private-screen__subtext {
+    font-size: 0.7rem;
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+   .logout-btn{
+     
+    display:flex;
+    justify-content:flex-end;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 0px;
+   padding: 5px;
+   border-radius: 5px;
+   background-color: rgb(8, 62, 110);
+   font-size: 15px;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: 400;
+   color: whitesmoke;
+
+  }
+   
